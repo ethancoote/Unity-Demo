@@ -122,6 +122,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!20 &100000129 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 8094123034983104137, guid: 4019d497fa811cd499542ada5a3a4061, type: 3}
+  m_PrefabInstance: {fileID: 5740875703972573774}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &395839720
 GameObject:
   m_ObjectHideFlags: 0
@@ -1121,6 +1126,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2788207151914787555, guid: 4019d497fa811cd499542ada5a3a4061, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5740875703972573776}
+    - targetCorrespondingSourceObject: {fileID: 2788207151914787555, guid: 4019d497fa811cd499542ada5a3a4061, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5740875703972573781}
+    - targetCorrespondingSourceObject: {fileID: 2788207151914787555, guid: 4019d497fa811cd499542ada5a3a4061, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5740875703972573782}
   m_SourcePrefab: {fileID: 100100000, guid: 4019d497fa811cd499542ada5a3a4061, type: 3}
 --- !u!4 &5740875703972573775 stripped
 Transform:
@@ -1155,6 +1166,34 @@ MonoBehaviour:
   grounded: 0
   grav: -25
   jumpHeight: 2
+--- !u!114 &5740875703972573781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392338528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31ab6ce0bd50b3b4bb71c0c54b492ac3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 100000129}
+  xSens: 30
+  ySens: 30
+--- !u!114 &5740875703972573782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392338528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39887e5c15a5b964ba715a1b18e6cfb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dist: 3
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
